@@ -1,0 +1,36 @@
+/* style.css */
+body {
+  background: #0d0d0d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+canvas {
+  background: #222;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+button {
+  margin-top: 20px;
+  padding: 5px 10px;
+  font-size: 1rem;
+  background: #333;
+  color: white;
+  border: white 1px solid;
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
+
+button:hover {
+  background: #444;
+}
+button:active {
+  background: #555;
+}
