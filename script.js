@@ -22,7 +22,7 @@ ctx.fillStyle = "gray";               // Text color
 ctx.font = "bold 22px 'Orbitron', 'Audiowide', 'Share Tech Mono', 'Consolas', monospace"; // Futuristic font stack
 ctx.textAlign = "center";              // Center horizontally
 ctx.textBaseline = "middle";           // Center vertically
-ctx.fillText("#75DayChallengeIIT", 0, 0);         // Draw at the origin
+ctx.fillText("Make It Count", 0, 0);         // Draw at the origin
 
 
   drawTicks(); // draw 4 ticks
